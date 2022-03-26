@@ -1,13 +1,403 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.main{
+  background: white;
+   width: 100%;
+   height: 91vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  
+  .main_div{
+    width: 30%;
+    height: 55vh;
+    border:  2px solid ;
+    border-radius: px;
+    background: rgb(194, 191, 191);
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1{
+    width: 100%;
+    color: black ;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-block-start: -31px ;
+  
+  }
+  form.register{
+    width: 60%;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input{
+    padding: 10px;
+    border-radius: 50px;
+    border-color: purple;
+  }
+  
+  .btn_register{
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    font-weight: Bold;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  body {
+    background: rgb(99, 39, 120)
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+  }
+  
+  .profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+  }
+  
+  .profile-button:hover {
+    background: #682773
+  }
+  
+  .profile-button:focus {
+    background: #682773;
+    box-shadow: none
+  }
+  
+  .profile-button:active {
+    background: #682773;
+    box-shadow: none
+  }
+  
+  .back:hover {
+    color: #682773;
+    cursor: pointer
+  }
+  
+  .labels {
+    font-size: 11px
+  }
+  
+  .add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+  }
+  
+  .asd {
+    max-width: 100%;
+    height: 29vh;
+  }
+  
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .card {
+    margin: 20% 45%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: rgb(168, 164, 164);
+    width:21.25%;
+    border-radius: 5px;
+    border-color: blue;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    float:left
+  }
+  
+  .card_image{
+    width: 100%;
+    height: 150px;
+    /* border-top-left-radius: 12px; */
+    /* border-top-right-radius: 12px; */
+  
+  }
+  
+  .card_hover{
+    box-shadow: 0px 13px 10px -7px rgba(141, 32, 32, 0.1);
+    transform: scale(1.05,1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      float: none;
+      width: 90%;
+    }
+  }
+  
+  .card_info{
+    background-color: #fff;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    padding: 10PX;
+    background-color: #fff;
+    justify-content: left;
+    align-items:left ;
+  }
+  
+  .card_category{
+    width: 100%;
+    justify-content: left;
+    /* text-transform: capitalize; */
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  .card_title{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+    padding: 2px;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  
+  
+   button{
+    padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline:none;
+    border:1px solid black;
+    cursor: pointer;
+    background-color: rgb(163, 149, 154);
+    color:black;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+   button:hover{
+    background-color: rgb(97, 172, 22);
+  }
+   .slot_inner{
+    text-align: center;
+    color: blue;
+    padding: 5px;
+  }
+   /* div{
+     width: 100%; 
+     height: 100vh;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+      font-size: 30px;
+   }   */
+  
+  /* @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap"); */
+  
+  body {
+      background: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300
+  }
+  
+  .height {
+      height: 100vh
+  }
+  
+  .search {
+      position: relative;
+      box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+  }
+  
+  .search input {
+      height: 60px;
+      text-indent: 25px;
+      border: 2px solid #d6d4d4
+  }
+  
+  .search input:focus {
+      box-shadow: none;
+      border: 2px solid blue
+  }
+  
+  .search .fa-search {
+      position: absolute;
+      top: 10px;
+      left: 16px
+  }
+  
+  .search button {
+      position: absolute;
+      top: 5px;
+      right: 4px;
+      height: 50px;
+      width: 100px;
+      background: blue
+  }
+  
+  .image_pic{
+       height: 50px;
+       width: 50px;
+       border-radius: 50%;
+       margin-right: 20px;
+  }
+  
+  .image_pick{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  
+  }
+  
+  .findname{
+    border-radius: 5x;
+    border-width: 10px;
+    border-color: #BA68C8;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+    width: 80%;
+    height: 20ch;
+    color: rgb(56, 9, 17);
+    font-weight: 500;
+  }
+  
+  .image_profile{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+  }
+  
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .icard {
+    border: 0.5px solid #f2f2f2;
+    margin: 2% 5%; 
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1); 
+    background-color: rgb(168, 164, 164);
+    width:20.25%; 
+    border-radius: 5px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .icard_image{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  
+  }
+  
+  .icard_hover{
+    box-shadow: 0px 13px 10px -7px rgba(141, 32, 32, 0.1);
+    transform: scale(1.05,1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      float: none;
+      width: 90%;
+    }
+  }
+  
+  .icard_info{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: #fff;
+    justify-items: right;
+    align-items:left;
+  }
+  
+  .icard_category{
+    justify-content: right;
+    text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      padding-bottom: 20px;
+  }
+  
+  .icard_title{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+    padding: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  img.img_pick{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  
+  }
+  
+  input.comment{
+    height: 30px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    tab-size: 16px;
+  }
+  
+  .App {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: row;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  .Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(153, 146, 146);
+    padding: 50px;
+    background-color: #d6d4d4;
+  }
+  
+  
